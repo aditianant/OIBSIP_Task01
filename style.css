@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+}
+.nav-top {
+  font-size: 200%;
+  height: 60vh;
+  width: vw;
+  color: #ffffff;
+  background-image: url("@Level01Task01/Navbar.jpg");
+  background-size: cover;
+  position: inherit;
+  border-radius: 5px;
+}
+.nav-content {
+  text-align: center;
+  transform: translate(0%, 150%);
+}
+
+.content {
+  background-color: #5a86c3;
+  text-align: center;
+  padding: 2.5% 5%;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 530;
+  font-size: large;
+}
+#content_big {
+  font-size: larger;
+  font-weight: bolder;
+}
+.middle {
+  height: auto;
+  width: auto;
+  background-image: url("@Level01Task01/Middlepart.jpg");
+  background-size: contain;
+}
+.firstrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.secondrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+ul {
+  width: auto;
+  font-weight: 700;
+  list-style-type: none;
+}
+.technical {
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  margin: 2.4% 2.4%;
+}
+.tech {
+  height: auto;
+  display: flex;
+  margin: 2.5% 2.5%;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tech-img {
+  background-image: url("@Level01Task01/technical.jpg");
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.tech-para {
+  height: auto;
+  width: 330px;
+  /* font-weight: 550; */
+  margin: 10px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.musicanddance {
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  margin: 2.4% 2.4%;
+}
+.musicdance {
+  height: auto;
+  display: flex;
+  margin: 2.5% 2.5%;
+}
+.musicdance-img {
+  background-image: url("@Level01Task01/music&dance.png");
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  border: 2px solid rgb(65, 11, 224);
+}
+
+.language {
+  border: 2px solid brown;
+  border-radius: 10px;
+  margin: 2.4% 2.4%;
+}
+.lang {
+  height: auto;
+  display: flex;
+  margin: 2.5% 2.5%;
+}
+.lang-img {
+  background-image: url("@Level01Task01/languages.jpg");
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  border: 2px solid rgb(176, 91, 41);
+}
+
+.handcraft {
+  border: 2px solid darkorange;
+  border-radius: 10px;
+  margin: 2.4% 2.4%;
+}
+.craft {
+  height: auto;
+  display: flex;
+  margin: 2.5% 2.5%;
+}
+.craft-img {
+  background-image: url("@Level01Task01/handcrafting.jpeg");
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  border: 2px solid rgb(249, 141, 0);
+}
+
+.games {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 2.4% 2.4%;
+}
+.game {
+  height: auto;
+  display: flex;
+  margin: 2.5% 2.5%;
+}
+.game-img {
+  background-image: url("@Level01Task01/games.webp");
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  border: 2px solid rgba(238, 96, 2, 0.658);
+}
+
+.designing {
+  border: 2px solid darkgoldenrod;
+  border-radius: 10px;
+  margin: 2.4% 2.4%;
+}
+.design {
+  height: auto;
+  display: flex;
+  margin: 2.5% 2.5%;
+}
+.design-img {
+  background-image: url("@Level01Task01/design.jpg");
+  background-size: cover;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  border: 2px solid rgba(238, 96, 2, 0.658);
+}
+
+.below {
+  background-color: #5a86c3;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactus {
+  height: auto;
+  margin-left: 85px;
+}
+h4 {
+  margin: 2.5% 0 2.5% 25%;
+}
+.contact-con {
+  margin-left: 2.5%;
+}
+.contact {
+  display: flex;
+  margin: 2.5% 2.5%;
+}
+
+.last-section {
+  height: 50px;
+  background-color: #0b3674;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  /* margin: 0 10px 10px 41px; */
+}
+.copy-con {
+  margin: 0.5rem 0.5rem;
+}
